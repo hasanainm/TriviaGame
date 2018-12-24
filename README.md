@@ -1,1 +1,3 @@
 # TriviaGame
+
+This game will have 5 questions. The user will have 30 seconds to complete all of the questions. The questions are multiple choice and the user will only get to select one answer. If the user completes answering the questions within the 30 second time frame, they can sumbit the answers by clicking "submit answers". If the user does not finish on time, the page will automatically submit the questions you've answered and display to you how many questions you got correct!

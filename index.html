@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/Users/SahraanMohammed/Desktop/hasanainm.github.io/TriviaGame/assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/Users/SahraanMohammed/Desktop/hasanainm.github.io/TriviaGame/assets/javascript/app.js"></script>
+
+    <style>
+    body {
+      background-image: url("https://www.thenology.com/wp-content/uploads/2016/04/polka234.png");
+      width: 100%;
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>TriviaGame</h1>
+     <br>
+    <button id="start">START THE GAME</button>
+    <div id="count-down"></div>
+
+    <div id="questionsContainer">
+
+<form id="questions-display" name="questions-form" onsubmit="return submitAnswers()"> 
+  <h3>Where is the yosemeite national park located?</h3>
+<input type="radio" name="question1" value="a" id="q1a">South Dakota
+<input type="radio" name="question1" value="b" id="q1b">California
+<input type="radio" name="question1" value="c" id="q1c">Nebraska
+<input type="radio" name="question1" value="d" id="q1d">Nevada
+
+<h3>Taj Mahal is located in which country?</h3>
+<input type="radio" name="question2" value="a" id="q2a">India
+<input type="radio" name="question2" value="b" id="q2b">Pakistan
+<input type="radio" name="question2" value="c" id="q2c">Indonesia
+<input type="radio" name="question2" value="d" id="q2d">Singapore
+
+<h3>The colosseum is located in which country?</h3>
+<input type="radio" name="question3" value="a" id="q3a">Norway
+<input type="radio" name="question3" value="b" id="q3b">France
+<input type="radio" name="question3" value="c" id="q3c">Italy
+<input type="radio" name="question3" value="d" id="q3d">Germany
+
+<h3>The great barrier reed is located where?</h3>
+<input type="radio" name="question4" value="a" id="q4a">United States
+<input type="radio" name="question4" value="b" id="q4b">Australia
+<input type="radio" name="question4" value="c" id="q4c">China
+<input type="radio" name="question4" value="d" id="q4d">Taiwan
+
+<h3>Christ The Redeemer Statue on Corcovado Mountain is located in which country?</h3>
+<input type="radio" name="question5" value="a" id="q5a">China
+<input type="radio" name="question5" value="b" id="q5b">Canada
+<input type="radio" name="question5" value="c" id="q5c">Hungary
+<input type="radio" name="question5" value="d" id="q5d">Brazil
+
+</form>
+    <input type="submit" id="submit-button" value= "Submit Answers">
+    
+</div>
+
+<div id="results"></div>
+
+
+  </body>
+
+</html>
